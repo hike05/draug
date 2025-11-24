@@ -15,7 +15,7 @@ Custom Caddy image with extended functionality.
 ```yaml
 services:
   caddy:
-    image: registry.gitlab.com/your-namespace/your-project:draug
+    image: ghcr.io/hike05/draug:draug
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
     ports:
