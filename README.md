@@ -1,6 +1,6 @@
 # Draug
 
-Custom Caddy image with extended functionality.
+Custom Caddy image with some extra functionality.
 
 ## Plugins
 
