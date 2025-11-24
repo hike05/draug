@@ -54,8 +54,9 @@ jobs:
           cache-to: type=gha,mode=max
           pull: true
 
-      - name: Scan Docker image with Trivy
-        uses: aquasecurity/trivy-action
-        with:
+     - name: Scan Docker image with Trivy
+       uses: aquasecurity/trivy-action@0.28.0
+       with:
           image-ref: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:draug
           format: table
+
